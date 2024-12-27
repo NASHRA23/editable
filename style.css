@@ -1,0 +1,158 @@
+/* Styling form and resume sections */
+
+
+body {
+
+    font-family: 'Times New Roman', Times, serif;
+
+    margin: 20px;
+
+    padding: 0;
+
+    
+background-color: rgb(212, 117, 117);
+    background-size: cover;
+    background-position:left;
+    background-attachment: fixed;
+
+}
+
+
+form {
+
+    margin: auto;
+
+    
+
+    border-radius: 8px;
+
+    box-shadow: 0 30px 30px rgba(10, 10, 10, 0.5);
+
+    padding: 20px;
+
+    max-width: 600px;
+
+}
+
+
+h1 {
+    font-family:  cursive, sans-serif;
+    text-align: center;
+font-size: 50px;
+    color: rgb(240, 237, 237);
+
+
+}
+
+
+fieldset {
+
+    border: 2px solid rgb(12, 11, 11);
+
+    border-radius: 8px;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+  
+    box-shadow:0 8px 8px rgba(0, 0, 0, 0.5); ;
+
+}
+
+
+legend {
+
+    font-weight: bold;
+
+    text-align: left;
+    font-size: 20px;
+
+    color: rgb(7, 6, 6);
+text-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+
+}
+
+
+label {
+
+    display: block;
+
+    margin-top: 10px;
+    font-size: 20px;
+
+    color: rgb(10, 9, 9);
+
+
+}
+
+
+input,textarea {
+
+    margin-top: 4px;
+
+    padding: 8px;
+    
+    width: calc(100% - 1px);
+
+    border: 1px solid rgb(5, 5, 5);
+
+    border-radius: 4px;
+
+    box-sizing: border-box;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+
+button {
+
+    display: block;
+    margin: 20px auto; 
+    width: 50%; 
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:  rgb(197, 66, 110);
+    border: 2px solid rgb(22, 18, 22);
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow:0 8px 8px rgba(13, 13, 14, 0.5);
+   
+
+}
+
+
+button :hover {
+
+    color: rgb(247, 1, 95);
+
+}
+
+
+#resume-display {
+
+    max-width: 600px;
+
+    margin: auto;
+
+    padding: 20px;
+
+    border: 2px solid rgb(3, 3, 3);
+
+    border-radius: 8px;
+
+
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+    outline:none;
+
+}
+
+
+#resume-display h2 {
+
+    color: rgb(17, 16, 16);
+
+}
